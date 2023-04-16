@@ -1,162 +1,162 @@
 [
-    {
-      "bookSourceComment": "哔哩轻小说_日本动漫轻小说在线阅读",
-      "bookSourceGroup": "my",
-      "bookSourceName": "哔哩轻小说",
-      "bookSourceType": 0,
-      "bookSourceUrl": "https://w.linovelib.com",
-      "bookUrlPattern": "https://w.linovelib.com/novel/.*",
-      "customOrder": 1,
-      "enabled": true,
-      "enabledExplore": true,
-      "lastUpdateTime": 1681618555603,
-      "searchUrl": "https://w.linovelib.com/search/{{key}}_{{page}}.html",
-      "exploreUrl": [
-        {
-          "title": "总排行榜",
-          "url": "/sort/index_{{page}}.html",
-          "style": {
-            "layout_flexGrow": 1,
-            "layout_flexShrink": 1,
-            "layout_alignSelf": "auto",
-            "layout_flexBasisPercent": 100
-          }
-        },
-        {
-          "title": "都市言情 ",
-          "url": "/dsyq/index_{{page}}.html",
-          "style": {
-            "layout_flexGrow": 1,
-            "layout_flexShrink": 1,
-            "layout_alignSelf": "auto",
-            "layout_flexBasisPercent": 30,
-            "layout_wrapBefore": true
-          }
-        },
-        {
-          "title": "玄幻魔法 ",
-          "url": "/xhmf/index_{{page}}.html",
-          "style": {
-            "layout_flexGrow": 1,
-            "layout_flexShrink": 1,
-            "layout_alignSelf": "auto",
-            "layout_flexBasisPercent": 30
-          }
-        },
-        {
-          "title": "武侠修真 ",
-          "url": "/wxxz/index_{{page}}.html",
-          "style": {
-            "layout_flexGrow": 1,
-            "layout_flexShrink": 1,
-            "layout_alignSelf": "auto",
-            "layout_flexBasisPercent": 30
-          }
-        },
-        {
-          "title": "穿越架空 ",
-          "url": "/cyjk/index_{{page}}.html",
-          "style": {
-            "layout_flexGrow": 1,
-            "layout_flexShrink": 1,
-            "layout_alignSelf": "auto",
-            "layout_flexBasisPercent": 30
-          }
-        },
-        {
-          "title": "科幻竞技 ",
-          "url": "/khjj/index_{{page}}.html",
-          "style": {
-            "layout_flexGrow": 1,
-            "layout_flexShrink": 1,
-            "layout_alignSelf": "auto",
-            "layout_flexBasisPercent": 30
-          }
-        },
-        {
-          "title": "军事历史 ",
-          "url": "/jsls/index_{{page}}.html",
-          "style": {
-            "layout_flexGrow": 1,
-            "layout_flexShrink": 1,
-            "layout_alignSelf": "auto",
-            "layout_flexBasisPercent": 30
-          }
-        },
-        {
-          "title": "鬼话悬疑 ",
-          "url": "/ghxy/index_{{page}}.html",
-          "style": {
-            "layout_flexGrow": 1,
-            "layout_flexShrink": 1,
-            "layout_alignSelf": "auto",
-            "layout_flexBasisPercent": 30
-          }
-        },
-        {
-          "title": "耽美小说 ",
-          "url": "/smtr/index_{{page}}.html",
-          "style": {
-            "layout_flexGrow": 1,
-            "layout_flexShrink": 1,
-            "layout_alignSelf": "auto",
-            "layout_flexBasisPercent": 30
-          }
-        },
-        {
-          "title": "同人小说 ",
-          "url": "/trxs/index_{{page}}.html",
-          "style": {
-            "layout_flexGrow": 1,
-            "layout_flexShrink": 1,
-            "layout_alignSelf": "auto",
-            "layout_flexBasisPercent": 30
-          }
-        },
-        {
-          "title": "官场商战 ",
-          "url": "/gcsz/index_{{page}}.html",
-          "style": {
-            "layout_flexGrow": 1,
-            "layout_flexShrink": 1,
-            "layout_alignSelf": "auto",
-            "layout_flexBasisPercent": 30
-          }
-        },
-        {
-          "title": "乡土风情 ",
-          "url": "/xtfq/index_{{page}}.html",
-          "style": {
-            "layout_flexGrow": 1,
-            "layout_flexShrink": 1,
-            "layout_alignSelf": "auto",
-            "layout_flexBasisPercent": 30
-          }
+  {
+    "bookSourceComment": "哔哩轻小说_日本动漫轻小说在线阅读",
+    "bookSourceGroup": "my",
+    "bookSourceName": "哔哩轻小说",
+    "bookSourceType": 0,
+    "bookSourceUrl": "https://w.linovelib.com",
+    "bookUrlPattern": "https://w.linovelib.com/novel/.*",
+    "customOrder": 1,
+    "enabled": true,
+    "enabledExplore": true,
+    "lastUpdateTime": 1681618555603,
+    "searchUrl": "https://w.linovelib.com/search/{{key}}_{{page}}.html",
+    "exploreUrl": [
+      {
+        "title": "总排行榜",
+        "url": "/sort/index_{{page}}.html",
+        "style": {
+          "layout_flexGrow": 1,
+          "layout_flexShrink": 1,
+          "layout_alignSelf": "auto",
+          "layout_flexBasisPercent": 100
         }
-      ],
-      "ruleBookInfo": {},
-      "ruleContent": {
-        "content": "https://static.missevan.com/{{//*[contains(@class,\"pld-sound-active\")]/@data-soundurl64}}",
-        "sourceRegex": "",
-        "webJs": ""
       },
-      "ruleExplore": {},
-      "ruleSearch": {
-        "author": "author",
-        "bookList": "$.info.Datas",
-        "bookUrl": "https://www.missevan.com/mdrama/drama/{{$.id}},{\"webView\":true}",
-        "coverUrl": "cover ",
-        "intro": "abstract",
-        "kind": "{{$.type_name}},{{$.catalog_name}}",
-        "lastChapter": "newest ",
-        "name": "name",
-        "wordCount": "catalog_name "
+      {
+        "title": "都市言情 ",
+        "url": "/dsyq/index_{{page}}.html",
+        "style": {
+          "layout_flexGrow": 1,
+          "layout_flexShrink": 1,
+          "layout_alignSelf": "auto",
+          "layout_flexBasisPercent": 30,
+          "layout_wrapBefore": true
+        }
       },
-      "ruleToc": {
-        "chapterList": "@css:.scroll-list.btn-groups>a",
-        "chapterName": "text",
-        "chapterUrl": "href##$##,{\"webView\":true}"
+      {
+        "title": "玄幻魔法 ",
+        "url": "/xhmf/index_{{page}}.html",
+        "style": {
+          "layout_flexGrow": 1,
+          "layout_flexShrink": 1,
+          "layout_alignSelf": "auto",
+          "layout_flexBasisPercent": 30
+        }
       },
-      "weight": 0
-    }
-  ]
+      {
+        "title": "武侠修真 ",
+        "url": "/wxxz/index_{{page}}.html",
+        "style": {
+          "layout_flexGrow": 1,
+          "layout_flexShrink": 1,
+          "layout_alignSelf": "auto",
+          "layout_flexBasisPercent": 30
+        }
+      },
+      {
+        "title": "穿越架空 ",
+        "url": "/cyjk/index_{{page}}.html",
+        "style": {
+          "layout_flexGrow": 1,
+          "layout_flexShrink": 1,
+          "layout_alignSelf": "auto",
+          "layout_flexBasisPercent": 30
+        }
+      },
+      {
+        "title": "科幻竞技 ",
+        "url": "/khjj/index_{{page}}.html",
+        "style": {
+          "layout_flexGrow": 1,
+          "layout_flexShrink": 1,
+          "layout_alignSelf": "auto",
+          "layout_flexBasisPercent": 30
+        }
+      },
+      {
+        "title": "军事历史 ",
+        "url": "/jsls/index_{{page}}.html",
+        "style": {
+          "layout_flexGrow": 1,
+          "layout_flexShrink": 1,
+          "layout_alignSelf": "auto",
+          "layout_flexBasisPercent": 30
+        }
+      },
+      {
+        "title": "鬼话悬疑 ",
+        "url": "/ghxy/index_{{page}}.html",
+        "style": {
+          "layout_flexGrow": 1,
+          "layout_flexShrink": 1,
+          "layout_alignSelf": "auto",
+          "layout_flexBasisPercent": 30
+        }
+      },
+      {
+        "title": "耽美小说 ",
+        "url": "/smtr/index_{{page}}.html",
+        "style": {
+          "layout_flexGrow": 1,
+          "layout_flexShrink": 1,
+          "layout_alignSelf": "auto",
+          "layout_flexBasisPercent": 30
+        }
+      },
+      {
+        "title": "同人小说 ",
+        "url": "/trxs/index_{{page}}.html",
+        "style": {
+          "layout_flexGrow": 1,
+          "layout_flexShrink": 1,
+          "layout_alignSelf": "auto",
+          "layout_flexBasisPercent": 30
+        }
+      },
+      {
+        "title": "官场商战 ",
+        "url": "/gcsz/index_{{page}}.html",
+        "style": {
+          "layout_flexGrow": 1,
+          "layout_flexShrink": 1,
+          "layout_alignSelf": "auto",
+          "layout_flexBasisPercent": 30
+        }
+      },
+      {
+        "title": "乡土风情 ",
+        "url": "/xtfq/index_{{page}}.html",
+        "style": {
+          "layout_flexGrow": 1,
+          "layout_flexShrink": 1,
+          "layout_alignSelf": "auto",
+          "layout_flexBasisPercent": 30
+        }
+      }
+    ],
+    "ruleBookInfo": {},
+    "ruleContent": {
+      "content": "https://static.missevan.com/{{//*[contains(@class,\"pld-sound-active\")]/@data-soundurl64}}",
+      "sourceRegex": "",
+      "webJs": ""
+    },
+    "ruleExplore": {},
+    "ruleSearch": {
+      "author": "author",
+      "bookList": "$.info.Datas",
+      "bookUrl": "https://www.missevan.com/mdrama/drama/{{$.id}},{\"webView\":true}",
+      "coverUrl": "cover ",
+      "intro": "abstract",
+      "kind": "{{$.type_name}},{{$.catalog_name}}",
+      "lastChapter": "newest ",
+      "name": "name",
+      "wordCount": "catalog_name "
+    },
+    "ruleToc": {
+      "chapterList": "@css:.scroll-list.btn-groups>a",
+      "chapterName": "text",
+      "chapterUrl": "href##$##,{\"webView\":true}"
+    },
+    "weight": 0
+  }
+]
