@@ -150,11 +150,6 @@
       "sourceRegex": "",
       "webJs": ""
     },
-    "ruleToc": {
-      "chapterList": "@css:.scroll-list.btn-groups>a",
-      "chapterName": "text",
-      "chapterUrl": "href##$##,{\"webView\":true}"
-    },
     "weight": 0
   },
   {
@@ -312,7 +307,7 @@
     "ruleToc": {
       "chapterList": "@css:.catalog>ul>li",
       "chapterName": "@css:a@text",
-      "chapterUrl": "@css:a@href",
+      "chapterUrl": "@css:a@href"
     },
     "ruleBookInfo": {},
     "ruleContent": {
