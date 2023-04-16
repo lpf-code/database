@@ -12,143 +12,150 @@
     "lastUpdateTime": 1681618555603,
     "searchUrl": "https://w.linovelib.com/search/{{key}}_{{page}}.html",
     "ruleSearch": {
-      "author": "@css:p:eq(2)>a@text",
-      "bookList": "@css:li.clearfix",
-      "bookUrl": "@css:.name>a@href",
-      "coverUrl": "@css:img@src",
-      "intro": "@css:.note.clearfix p@text",
-      "kind": "@css:.note_text,p:eq(4)@text",
-      "lastChapter": "@css:p:eq(3)@text",
-      "name": "@css:.name@text"
+      "bookList": "@css:.book-ol>.book-li",
+      "author": "@css:.book-author@text",
+      "bookUrl": "@css:.book-layout@href",
+      "coverUrl": "@css:.book-cover@src",
+      "intro": "@css:.book-desc@text",
+      "kind": "@css:.book-meta-r@text",
+      "name": "@css:.book-title@text"
     },
     "exploreUrl": [
       {
-        "title": "总排行榜",
-        "url": "/sort/index{{page - 1 == 0 ? '' : ('_' + page)}}.html",
+        "title": "总点击榜",
+        "url": "/allvisit/{{page}}.html",
         "style": {
           "layout_flexGrow": 1,
           "layout_flexShrink": 1,
           "layout_alignSelf": "auto",
-          "layout_flexBasisPercent": 100
+          "layout_flexBasisPercent": 0.25
         }
       },
       {
-        "title": "都市言情 ",
-        "url": "/dsyq/index{{page - 1 == 0 ? '' : ('_' + page)}}.html",
+        "title": "月点击榜",
+        "url": "/monthvisit/{{page}}.html",
         "style": {
           "layout_flexGrow": 1,
           "layout_flexShrink": 1,
           "layout_alignSelf": "auto",
-          "layout_flexBasisPercent": 0.3,
-          "layout_wrapBefore": true
+          "layout_flexBasisPercent": 0.25
         }
       },
       {
-        "title": "玄幻魔法 ",
-        "url": "/xhmf/index{{page - 1 == 0 ? '' : ('_' + page)}}.html",
+        "title": "总推荐榜",
+        "url": "/allvote/{{page}}.html",
         "style": {
           "layout_flexGrow": 1,
           "layout_flexShrink": 1,
           "layout_alignSelf": "auto",
-          "layout_flexBasisPercent": 0.3
+          "layout_flexBasisPercent": 0.25
         }
       },
       {
-        "title": "武侠修真 ",
-        "url": "/wxxz/index{{page - 1 == 0 ? '' : ('_' + page)}}.html",
+        "title": "月推荐榜",
+        "url": "/monthvote/{{page}}.html",
         "style": {
           "layout_flexGrow": 1,
           "layout_flexShrink": 1,
           "layout_alignSelf": "auto",
-          "layout_flexBasisPercent": 0.3
+          "layout_flexBasisPercent": 0.25
         }
       },
       {
-        "title": "穿越架空 ",
-        "url": "/cyjk/index{{page - 1 == 0 ? '' : ('_' + page)}}.html",
+        "title": "总鲜花榜",
+        "url": "/allflower/{{page}}.html",
         "style": {
           "layout_flexGrow": 1,
           "layout_flexShrink": 1,
           "layout_alignSelf": "auto",
-          "layout_flexBasisPercent": 0.3
+          "layout_flexBasisPercent": 0.25
         }
       },
       {
-        "title": "科幻竞技 ",
-        "url": "/khjj/index{{page - 1 == 0 ? '' : ('_' + page)}}.html",
+        "title": "月鲜花榜",
+        "url": "/monthflower/{{page}}.html",
         "style": {
           "layout_flexGrow": 1,
           "layout_flexShrink": 1,
           "layout_alignSelf": "auto",
-          "layout_flexBasisPercent": 0.3
+          "layout_flexBasisPercent": 0.25
         }
       },
       {
-        "title": "军事历史 ",
-        "url": "/jsls/index{{page - 1 == 0 ? '' : ('_' + page)}}.html",
+        "title": "最近更新",
+        "url": "/lastupdate/{{page}}.html",
         "style": {
           "layout_flexGrow": 1,
           "layout_flexShrink": 1,
           "layout_alignSelf": "auto",
-          "layout_flexBasisPercent": 0.3
+          "layout_flexBasisPercent": 0.25
         }
       },
       {
-        "title": "鬼话悬疑 ",
-        "url": "/ghxy/index{{page - 1 == 0 ? '' : ('_' + page)}}.html",
+        "title": "最新入库",
+        "url": "/postdate/{{page}}.html",
         "style": {
           "layout_flexGrow": 1,
           "layout_flexShrink": 1,
           "layout_alignSelf": "auto",
-          "layout_flexBasisPercent": 0.3
+          "layout_flexBasisPercent": 0.25
         }
       },
       {
-        "title": "耽美小说 ",
-        "url": "/smtr/index{{page - 1 == 0 ? '' : ('_' + page)}}.html",
+        "title": "收藏榜",
+        "url": "/goodnum/{{page}}.html",
         "style": {
           "layout_flexGrow": 1,
           "layout_flexShrink": 1,
           "layout_alignSelf": "auto",
-          "layout_flexBasisPercent": 0.3
+          "layout_flexBasisPercent": 0.25
         }
       },
       {
-        "title": "同人小说 ",
-        "url": "/trxs/index{{page - 1 == 0 ? '' : ('_' + page)}}.html",
+        "title": "字数榜",
+        "url": "/words/{{page}}.html",
         "style": {
           "layout_flexGrow": 1,
           "layout_flexShrink": 1,
           "layout_alignSelf": "auto",
-          "layout_flexBasisPercent": 0.3
+          "layout_flexBasisPercent": 0.25
         }
       },
       {
-        "title": "官场商战 ",
-        "url": "/gcsz/index{{page - 1 == 0 ? '' : ('_' + page)}}.html",
+        "title": "新书榜",
+        "url": "/newhot/{{page}}.html",
         "style": {
           "layout_flexGrow": 1,
           "layout_flexShrink": 1,
           "layout_alignSelf": "auto",
-          "layout_flexBasisPercent": 0.3
-        }
-      },
-      {
-        "title": "乡土风情 ",
-        "url": "/xtfq/index{{page - 1 == 0 ? '' : ('_' + page)}}.html",
-        "style": {
-          "layout_flexGrow": 1,
-          "layout_flexShrink": 1,
-          "layout_alignSelf": "auto",
-          "layout_flexBasisPercent": 0.3
+          "layout_flexBasisPercent": 0.25
         }
       }
     ],
-    "ruleBookInfo": {},
+    "ruleExplore": {
+      "bookList": "@css:#list_content>.book-li",
+      "author": "@css:.book-author@text",
+      "bookUrl": "@css:.book-layout@href",
+      "coverUrl": "@css:.book-cover@src",
+      "intro": "@css:.book-intro@text",
+      "name": "@css:.book-title@text"
+    },
+    "ruleBookInfo": {
+      "name": "@css:.book-title@text",
+      "author": "@css:.book-rand-a>span>a@text",
+      "kind": "@css:.tag-small-group@text",
+      "wordCount": "@css:.book-cell>.book-meta.eq(1)@text ",
+      "intro": "@css:.book-summary>content@text",
+      "coverUrl": "@css:.book-cover@src",
+      "tocUrl": "@css:.book-summary>.book-meta@href"
+    },
+    "ruleToc": {
+      "chapterList": "@css:.chapter-li",
+      "chapterName": "@css:.chapter-index@text",
+      "chapterUrl": "@css:.chapter-li-a@href"
+    },
     "ruleContent": {
-      "content": "https://static.missevan.com/{{//*[contains(@class,\"pld-sound-active\")]/@data-soundurl64}}",
-      "sourceRegex": "",
-      "webJs": ""
+      "content": "@css:.apage@text"
     },
     "weight": 0
   },
@@ -159,19 +166,11 @@
     "bookSourceType": 0,
     "bookSourceUrl": "http://www.ffxs8.com/",
     "bookUrlPattern": "http://www.ffxs8.com/.*/.*",
-    "customOrder": 1,
+    "customOrder": -3,
     "enabled": true,
+    "enabledCookieJar": true,
     "enabledExplore": true,
-    "lastUpdateTime": 1681618555603,
-    "ruleSearch": {
-      "bookList": "@css:ul.clearfix>li",
-      "author": "@css:.author@text##作者：##",
-      "bookUrl": "@css:a@href",
-      "coverUrl": "@css:img@src",
-      "intro": "@css:.descript@text",
-      "name": "@css:.title@text",
-      "wordCount": "@css:.tips>span:eq(0)@text##大小：##"
-    },
+    "enabledReview": false,
     "exploreUrl": [
       {
         "title": "总排行榜",
@@ -180,7 +179,7 @@
           "layout_flexGrow": 1,
           "layout_flexShrink": 1,
           "layout_alignSelf": "auto",
-          "layout_flexBasisPercent": 100
+          "layout_flexBasisPercent": 0.25
         }
       },
       {
@@ -295,9 +294,32 @@
         }
       }
     ],
-    "ruleExplore": {
-      "bookList": "@css:ul.clearfix>li",
+    "lastUpdateTime": 1681636559819,
+    "respondTime": 180000,
+    "ruleBookInfo": {
       "author": "@css:.author@text##作者：##",
+      "coverUrl": "@css:.cover@src",
+      "intro": "@css:.descInfo@text",
+      "wordCount": "@css:.size@text##大小：##"
+    },
+    "ruleContent": {
+      "content": "@css:.content@text",
+      "sourceRegex": "",
+      "webJs": ""
+    },
+    "ruleExplore": {
+      "author": "@css:.author@text##作者：##",
+      "bookList": "@css:ul.clearfix>li",
+      "bookUrl": "@css:a@href",
+      "coverUrl": "@css:img@src",
+      "intro": "@css:.descript@text",
+      "name": "@css:.title@text",
+      "wordCount": "@css:.tips>span:eq(0)@text##大小：##"
+    },
+    "ruleReview": {},
+    "ruleSearch": {
+      "author": "@css:.author@text##作者：##",
+      "bookList": "@css:ul.clearfix>li",
       "bookUrl": "@css:a@href",
       "coverUrl": "@css:img@src",
       "intro": "@css:.descript@text",
@@ -308,12 +330,6 @@
       "chapterList": "@css:.catalog>ul>li",
       "chapterName": "@css:a@text",
       "chapterUrl": "@css:a@href"
-    },
-    "ruleBookInfo": {},
-    "ruleContent": {
-      "content": "https://static.missevan.com/{{//*[contains(@class,\"pld-sound-active\")]/@data-soundurl64}}",
-      "sourceRegex": "",
-      "webJs": ""
     },
     "weight": 0
   }
