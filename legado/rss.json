@@ -24,7 +24,7 @@
     "exploreUrl": [
       {
         "title": "总排行榜",
-        "url": "/sort/index_{{page}}.html",
+        "url": "/sort/index{{page - 1 == 0 ? '' : ('_' + page)}}.html",
         "style": {
           "layout_flexGrow": 1,
           "layout_flexShrink": 1,
@@ -34,7 +34,7 @@
       },
       {
         "title": "都市言情 ",
-        "url": "/dsyq/index_{{page}}.html",
+        "url": "/dsyq/index{{page - 1 == 0 ? '' : ('_' + page)}}.html",
         "style": {
           "layout_flexGrow": 1,
           "layout_flexShrink": 1,
@@ -45,7 +45,7 @@
       },
       {
         "title": "玄幻魔法 ",
-        "url": "/xhmf/index_{{page}}.html",
+        "url": "/xhmf/index{{page - 1 == 0 ? '' : ('_' + page)}}.html",
         "style": {
           "layout_flexGrow": 1,
           "layout_flexShrink": 1,
@@ -55,7 +55,7 @@
       },
       {
         "title": "武侠修真 ",
-        "url": "/wxxz/index_{{page}}.html",
+        "url": "/wxxz/index{{page - 1 == 0 ? '' : ('_' + page)}}.html",
         "style": {
           "layout_flexGrow": 1,
           "layout_flexShrink": 1,
@@ -65,7 +65,7 @@
       },
       {
         "title": "穿越架空 ",
-        "url": "/cyjk/index_{{page}}.html",
+        "url": "/cyjk/index{{page - 1 == 0 ? '' : ('_' + page)}}.html",
         "style": {
           "layout_flexGrow": 1,
           "layout_flexShrink": 1,
@@ -75,7 +75,7 @@
       },
       {
         "title": "科幻竞技 ",
-        "url": "/khjj/index_{{page}}.html",
+        "url": "/khjj/index{{page - 1 == 0 ? '' : ('_' + page)}}.html",
         "style": {
           "layout_flexGrow": 1,
           "layout_flexShrink": 1,
@@ -85,7 +85,7 @@
       },
       {
         "title": "军事历史 ",
-        "url": "/jsls/index_{{page}}.html",
+        "url": "/jsls/index{{page - 1 == 0 ? '' : ('_' + page)}}.html",
         "style": {
           "layout_flexGrow": 1,
           "layout_flexShrink": 1,
@@ -95,7 +95,7 @@
       },
       {
         "title": "鬼话悬疑 ",
-        "url": "/ghxy/index_{{page}}.html",
+        "url": "/ghxy/index{{page - 1 == 0 ? '' : ('_' + page)}}.html",
         "style": {
           "layout_flexGrow": 1,
           "layout_flexShrink": 1,
@@ -105,7 +105,7 @@
       },
       {
         "title": "耽美小说 ",
-        "url": "/smtr/index_{{page}}.html",
+        "url": "/smtr/index{{page - 1 == 0 ? '' : ('_' + page)}}.html",
         "style": {
           "layout_flexGrow": 1,
           "layout_flexShrink": 1,
@@ -115,7 +115,7 @@
       },
       {
         "title": "同人小说 ",
-        "url": "/trxs/index_{{page}}.html",
+        "url": "/trxs/index{{page - 1 == 0 ? '' : ('_' + page)}}.html",
         "style": {
           "layout_flexGrow": 1,
           "layout_flexShrink": 1,
@@ -125,7 +125,7 @@
       },
       {
         "title": "官场商战 ",
-        "url": "/gcsz/index_{{page}}.html",
+        "url": "/gcsz/index{{page - 1 == 0 ? '' : ('_' + page)}}.html",
         "style": {
           "layout_flexGrow": 1,
           "layout_flexShrink": 1,
@@ -135,7 +135,7 @@
       },
       {
         "title": "乡土风情 ",
-        "url": "/xtfq/index_{{page}}.html",
+        "url": "/xtfq/index{{page - 1 == 0 ? '' : ('_' + page)}}.html",
         "style": {
           "layout_flexGrow": 1,
           "layout_flexShrink": 1,
@@ -180,7 +180,7 @@
     "exploreUrl": [
       {
         "title": "总排行榜",
-        "url": "/sort/index_{{page}}.html",
+        "url": "/sort/index{{page - 1 == 0 ? '' : ('_' + page)}}.html",
         "style": {
           "layout_flexGrow": 1,
           "layout_flexShrink": 1,
@@ -190,7 +190,7 @@
       },
       {
         "title": "都市言情 ",
-        "url": "/dsyq/index_{{page}}.html",
+        "url": "/dsyq/index{{page - 1 == 0 ? '' : ('_' + page)}}.html",
         "style": {
           "layout_flexGrow": 1,
           "layout_flexShrink": 1,
@@ -201,7 +201,7 @@
       },
       {
         "title": "玄幻魔法 ",
-        "url": "/xhmf/index_{{page}}.html",
+        "url": "/xhmf/index{{page - 1 == 0 ? '' : ('_' + page)}}.html",
         "style": {
           "layout_flexGrow": 1,
           "layout_flexShrink": 1,
@@ -211,7 +211,7 @@
       },
       {
         "title": "武侠修真 ",
-        "url": "/wxxz/index_{{page}}.html",
+        "url": "/wxxz/index{{page - 1 == 0 ? '' : ('_' + page)}}.html",
         "style": {
           "layout_flexGrow": 1,
           "layout_flexShrink": 1,
@@ -221,7 +221,7 @@
       },
       {
         "title": "穿越架空 ",
-        "url": "/cyjk/index_{{page}}.html",
+        "url": "/cyjk/index{{page - 1 == 0 ? '' : ('_' + page)}}.html",
         "style": {
           "layout_flexGrow": 1,
           "layout_flexShrink": 1,
@@ -231,7 +231,7 @@
       },
       {
         "title": "科幻竞技 ",
-        "url": "/khjj/index_{{page}}.html",
+        "url": "/khjj/index{{page - 1 == 0 ? '' : ('_' + page)}}.html",
         "style": {
           "layout_flexGrow": 1,
           "layout_flexShrink": 1,
@@ -241,7 +241,7 @@
       },
       {
         "title": "军事历史 ",
-        "url": "/jsls/index_{{page}}.html",
+        "url": "/jsls/index{{page - 1 == 0 ? '' : ('_' + page)}}.html",
         "style": {
           "layout_flexGrow": 1,
           "layout_flexShrink": 1,
@@ -251,7 +251,7 @@
       },
       {
         "title": "鬼话悬疑 ",
-        "url": "/ghxy/index_{{page}}.html",
+        "url": "/ghxy/index{{page - 1 == 0 ? '' : ('_' + page)}}.html",
         "style": {
           "layout_flexGrow": 1,
           "layout_flexShrink": 1,
@@ -261,7 +261,7 @@
       },
       {
         "title": "耽美小说 ",
-        "url": "/smtr/index_{{page}}.html",
+        "url": "/smtr/index{{page - 1 == 0 ? '' : ('_' + page)}}.html",
         "style": {
           "layout_flexGrow": 1,
           "layout_flexShrink": 1,
@@ -271,7 +271,7 @@
       },
       {
         "title": "同人小说 ",
-        "url": "/trxs/index_{{page}}.html",
+        "url": "/trxs/index{{page - 1 == 0 ? '' : ('_' + page)}}.html",
         "style": {
           "layout_flexGrow": 1,
           "layout_flexShrink": 1,
@@ -281,7 +281,7 @@
       },
       {
         "title": "官场商战 ",
-        "url": "/gcsz/index_{{page}}.html",
+        "url": "/gcsz/index{{page - 1 == 0 ? '' : ('_' + page)}}.html",
         "style": {
           "layout_flexGrow": 1,
           "layout_flexShrink": 1,
@@ -291,7 +291,7 @@
       },
       {
         "title": "乡土风情 ",
-        "url": "/xtfq/index_{{page}}.html",
+        "url": "/xtfq/index{{page - 1 == 0 ? '' : ('_' + page)}}.html",
         "style": {
           "layout_flexGrow": 1,
           "layout_flexShrink": 1,
@@ -309,16 +309,17 @@
       "name": "@css:.title@text",
       "wordCount": "@css:.tips>span:eq(0)@text##大小：##"
     },
+    "ruleToc": {
+      "chapterList": "@css:.catalog>ul>li",
+      "chapterName": "@css:a@text",
+      "chapterUrl": "@css:a@href",
+      "updateTime": "@css:desc-detail .date@text##时间：## ",
+    },
     "ruleBookInfo": {},
     "ruleContent": {
       "content": "https://static.missevan.com/{{//*[contains(@class,\"pld-sound-active\")]/@data-soundurl64}}",
       "sourceRegex": "",
       "webJs": ""
-    },
-    "ruleToc": {
-      "chapterList": "@css:.scroll-list.btn-groups>a",
-      "chapterName": "text",
-      "chapterUrl": "href##$##,{\"webView\":true}"
     },
     "weight": 0
   }
