@@ -29,7 +29,7 @@
           "layout_flexGrow": 1,
           "layout_flexShrink": 1,
           "layout_alignSelf": "auto",
-          "layout_flexBasisPercent": 30,
+          "layout_flexBasisPercent": 0.2,
           "layout_wrapBefore": true
         }
       },
@@ -40,7 +40,7 @@
           "layout_flexGrow": 1,
           "layout_flexShrink": 1,
           "layout_alignSelf": "auto",
-          "layout_flexBasisPercent": 30
+          "layout_flexBasisPercent": 0.2
         }
       },
       {
@@ -50,7 +50,7 @@
           "layout_flexGrow": 1,
           "layout_flexShrink": 1,
           "layout_alignSelf": "auto",
-          "layout_flexBasisPercent": 30
+          "layout_flexBasisPercent": 0.2
         }
       },
       {
@@ -60,7 +60,7 @@
           "layout_flexGrow": 1,
           "layout_flexShrink": 1,
           "layout_alignSelf": "auto",
-          "layout_flexBasisPercent": 30
+          "layout_flexBasisPercent": 0.2
         }
       },
       {
@@ -70,7 +70,7 @@
           "layout_flexGrow": 1,
           "layout_flexShrink": 1,
           "layout_alignSelf": "auto",
-          "layout_flexBasisPercent": 30
+          "layout_flexBasisPercent": 0.2
         }
       },
       {
@@ -80,7 +80,7 @@
           "layout_flexGrow": 1,
           "layout_flexShrink": 1,
           "layout_alignSelf": "auto",
-          "layout_flexBasisPercent": 30
+          "layout_flexBasisPercent": 0.2
         }
       },
       {
@@ -90,7 +90,7 @@
           "layout_flexGrow": 1,
           "layout_flexShrink": 1,
           "layout_alignSelf": "auto",
-          "layout_flexBasisPercent": 30
+          "layout_flexBasisPercent": 0.2
         }
       },
       {
@@ -100,7 +100,7 @@
           "layout_flexGrow": 1,
           "layout_flexShrink": 1,
           "layout_alignSelf": "auto",
-          "layout_flexBasisPercent": 30
+          "layout_flexBasisPercent": 0.2
         }
       },
       {
@@ -110,7 +110,7 @@
           "layout_flexGrow": 1,
           "layout_flexShrink": 1,
           "layout_alignSelf": "auto",
-          "layout_flexBasisPercent": 30
+          "layout_flexBasisPercent": 0.2
         }
       },
       {
@@ -120,7 +120,7 @@
           "layout_flexGrow": 1,
           "layout_flexShrink": 1,
           "layout_alignSelf": "auto",
-          "layout_flexBasisPercent": 30
+          "layout_flexBasisPercent": 0.2
         }
       },
       {
@@ -130,7 +130,7 @@
           "layout_flexGrow": 1,
           "layout_flexShrink": 1,
           "layout_alignSelf": "auto",
-          "layout_flexBasisPercent": 30
+          "layout_flexBasisPercent": 0.2
         }
       }
     ],
