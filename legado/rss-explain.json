@@ -59,6 +59,17 @@
         }
       }
     ],
+    "ruleExplore": {
+      "bookList": "书籍列表规则",
+      "author": "作者规则",
+      "bookUrl": "详情页URL规则",
+      "coverUrl": "封面规则 ",
+      "intro": "简介规则",
+      "kind": "分类规则",
+      "lastChapter": "最新章节规则",
+      "name": "书名规则",
+      "wordCount": "字数规则 "
+    },
     "--详情--0--": "",
     "--详情--1--": "",
     "--详情--2--": "",
@@ -74,7 +85,6 @@
     "ruleContent": {
       "content": "$..content"
     },
-    "ruleExplore": {},
     "ruleToc": {
       "chapterList": "$..list[*].list[*]",
       "chapterName": "$.name",
