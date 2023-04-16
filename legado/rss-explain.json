@@ -1,14 +1,14 @@
 [
   {
-    "bookSourceComment": "哔哩轻小说_日本动漫轻小说在线阅读",
-    "bookSourceGroup": "my",
-    "bookSourceName": "哔哩轻小说",
-    "bookSourceType": 0,
-    "bookSourceUrl": "https://quapp.shenbabao.com",
-    "bookUrlPattern": "https://quapp.shenbabao.com/book/.*",
+    "bookSourceComment": "源注释",
+    "bookSourceGroup": "源分组",
+    "bookSourceName": "源名称 -- 必填",
+    "bookSourceType": "源类型 0: 文本, 1: 音频, 2: 图片, 3: 文件",
+    "bookSourceUrl": "源URL -- 必填 唯一,
+    "bookUrlPattern": "书籍URL正则 -- 添加网址时，用于识别书源",
     "customOrder": 1,
-    "enabled": true,
-    "enabledExplore": true,
+    "enabled": "启用: boolean",
+    "enabledExplore": "启用发现: boolean",
     "lastUpdateTime": 1611458862320,
     "ruleBookInfo": {},
     "ruleContent": {
