@@ -35,5 +35,39 @@
       "chapterUrl": "href##$##,{\"webView\":true}"
     },
     "weight": 0
+  },
+  {
+    "bookSourceComment": "",
+    "bookSourceGroup": "JSon",
+    "bookSourceName": "猎鹰小说网",
+    "bookSourceType": 0,
+    "bookSourceUrl": "http://api.book.lieying.cn",
+    "customOrder": 0,
+    "enabled": true,
+    "enabledExplore": false,
+    "header": "{\n  \"User-Agent\": \"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.106 Safari/537.36\"\n}",
+    "lastUpdateTime": 0,
+    "ruleBookInfo": {},
+    "ruleContent": {
+      "content": "$.chapter.body"
+    },
+    "ruleExplore": {},
+    "ruleSearch": {
+      "author": "$.author",
+      "bookList": "$..books[*]",
+      "bookUrl": "/Book/getChapterListByBookId?bookId={$._id}",
+      "coverUrl": "$.cover",
+      "intro": "$.shortIntro",
+      "kind": "$.minorCate",
+      "lastChapter": "$.lastChapter",
+      "name": "$.title"
+    },
+    "ruleToc": {
+      "chapterList": "$.chapterInfo.chapters.[*]",
+      "chapterName": "$.title",
+      "chapterUrl": "$.link"
+    },
+    "searchUrl": "/Book/search?query={{key}}&start={{(page-1)*20}}&limit=40&device_type=android&app_version=165",
+    "weight": 0
   }
 ]
