@@ -313,7 +313,7 @@
       "chapterList": "@css:.catalog>ul>li",
       "chapterName": "@css:a@text",
       "chapterUrl": "@css:a@href",
-      "updateTime": "@css:.desc-detail>.descTip>.date@text##时间：## ",
+      "ChapterInfo": "@css:.desc-detail>.descTip>.date@text##时间：## ",
     },
     "ruleBookInfo": {},
     "ruleContent": {
